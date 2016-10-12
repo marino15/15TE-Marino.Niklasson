@@ -1,0 +1,39 @@
+import java.util.Scanner;
+
+public class Calculator {
+
+	public static void main (String[] args) {
+		
+		Scanner liamochludwig = new Scanner (System.in);
+		
+		double firstNum, secondNum, answer;
+			System.out.println("Ge mig numret nuuu!");
+		firstNum = liamochludwig.nextDouble();
+			System.out.println("ANDRA NUMRET NUUUU JAG BLIR ARG");
+		secondNum = liamochludwig.nextDouble();
+			System.out.println("Vilket form av matematisk räknesätt vill du använda? fettofejs");
+			
+		switch () {
+		
+		case "+":
+			System.out.println("Ditt resultat blir " +(firstNum + secondNum));
+			break;
+		
+		case "-":
+			System.out.println("Ditt resultat blir " +(firstNum - secondNum));
+			break;
+			
+		case "*":
+			System.out.println("Ditt resultat blir " +(firstNum * secondNum));
+			break;
+			
+		case "/":
+			System.out.println("Ditt resultat blir " +(firstNum / secondNum));
+			break;
+			
+		default:
+			System.out.println("Är du helt dum i huvudet eller?");
+		}
+		
+	}
+}

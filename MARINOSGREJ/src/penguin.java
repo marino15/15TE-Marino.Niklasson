@@ -1,0 +1,15 @@
+import java.util.Scanner;
+
+public class penguin {
+	public static void main(String args[]){
+		Scanner test = new Scanner(System.in);
+		
+		int yes = 5;
+		int no = 18;
+		
+		yes += 7;
+		
+		System.out.println(yes);
+
+	}
+}

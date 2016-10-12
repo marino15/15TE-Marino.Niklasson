@@ -1,0 +1,14 @@
+import java.util.Scanner;
+
+public class penguin {
+	public static void main(String args[]){
+		Scanner knubb = new Scanner(System.in);
+		double fnum, snum, answer;
+		System.out.println("Enter first num: ");
+		fnum = knubb.nextDouble();
+		System.out.println("Enter second num: ");
+		snum = knubb.nextDouble(); 
+		answer = fnum + snum;
+		System.out.println(answer);
+	}
+}

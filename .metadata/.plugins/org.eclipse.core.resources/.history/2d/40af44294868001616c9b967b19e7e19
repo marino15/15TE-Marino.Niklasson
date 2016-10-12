@@ -1,0 +1,8 @@
+public class penguin {
+	public static void main(String args[]){
+		double liam;
+		liam = 5.28;
+		
+		System.out.print(liam);
+	}
+}

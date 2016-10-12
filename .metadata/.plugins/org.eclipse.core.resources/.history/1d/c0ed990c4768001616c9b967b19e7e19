@@ -1,0 +1,6 @@
+
+public class penguin {
+	public static void main(String args[]){
+		Syseem.out.println("HELLO LIAM");
+	}
+}

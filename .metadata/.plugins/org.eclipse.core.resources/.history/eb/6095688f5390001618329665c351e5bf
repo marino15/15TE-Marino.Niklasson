@@ -1,0 +1,17 @@
+import java.util.Scanner;
+
+public class Calculator {
+
+	public static void main (String[] args) {
+		
+		Scanner liamochludwig = new Scanner (System.in);
+		
+		double firstNum, secondNum, answer;
+			System.out.println("Ge mig numret nuuu!");
+		firstNum = liamochludwig.nextDouble();
+			System.out.println("ANDRA NUMRET NUUUU JAG BLIR ARG");
+		secondNum = liamochludwig.nextDouble();
+			System.out.println("Vill egentligen inte ge dig svaret men... :/");
+		answer = firstNum + secondNum;
+	}
+}

@@ -1,0 +1,10 @@
+public class penguin {
+	public static void main(String args[]){
+		double liam;
+		liam = 5.28;
+		
+		System.out.print("I want ");
+		System.out.print(liam);
+		System.out.println(" because he's nice to me");
+	}
+}

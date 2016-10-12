@@ -1,0 +1,11 @@
+public class penguin {
+	public static void main(String args[]){
+		double grej;
+		grej = linus;
+		
+		System.out.print("Hejsan. Jag har ");
+		System.out.print(grej);
+		System.out.println(" som en variabel.");
+		System.out.print("Och jag kan kontrollera vilken rad jag ska skriva på");
+	}
+}
